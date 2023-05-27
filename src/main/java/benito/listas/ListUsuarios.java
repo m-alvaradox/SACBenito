@@ -8,7 +8,7 @@ public class ListUsuarios {
     
     public ArrayList<Usuario> cargarUsuarios() {
         ArrayList<Usuario> lusuarios = new ArrayList<>();
-        lusuarios.add(new Cliente("mpena","1234","MICHAEL","ANDRES","PENA","ROCA",
+        lusuarios.add(new Cliente("pi","1234","MICHAEL","ANDRES","PENA","ROCA",
                               "0930565786","TECNICO",60000));
     
         lusuarios.add(new Cliente("pchavez","567","PAULINA","ANDREA","CHAVEZ","MONROY",
