@@ -22,9 +22,9 @@ public class Login {
          
          
          while(validacion == false) {
-             System.out.print("Ingrese usuario: ");
+             System.out.print("Usuario: ");
              String user = sc.nextLine();
-             System.out.print("Ingrese clave: ");
+             System.out.print("Clave: ");
              String password = sc.nextLine();
              
              for(Usuario u : usuarios) {
